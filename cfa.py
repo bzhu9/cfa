@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import password as pw
 
 opts = webdriver.ChromeOptions()
-opts.add_argument("--user-data-dir=/Users/brianzhu/Library/Application Support/Google/Chrome/Profile 3")
+opts.add_argument("--user-data-dir=" + pw.chrome_profile)
 driver = webdriver.Chrome(options = opts, executable_path="chromedriver")
 driver.get("https://www.chick-fil-a.com/missedtransaction")
 email = pw.email
