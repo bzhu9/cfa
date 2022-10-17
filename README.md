@@ -41,7 +41,7 @@ password = "<yourpassword>"
 chrome_profile = "<pathtochromeprofile>"
 ```
 
-### Usage
+## Usage
 ```console
 $ python3 cfa.py
 ```
