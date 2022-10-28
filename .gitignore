@@ -1,6 +1,9 @@
 # Password file
 password.py
 
+# DS_STORE
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
