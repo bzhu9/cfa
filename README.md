@@ -14,8 +14,6 @@ $ pip install -r requirements.txt
 ### Chrome Browser Version
 Make sure to have the correct chromedriver version that matches your current Chrome Browser Version.
 
-The included chromedriver (Version 106.0.5249.61) corresponds to the Chrome Browser(Version 106.0.5249.119)
-
 See https://chromedriver.chromium.org/downloads for more versions.
 
 ### Chrome Profile
