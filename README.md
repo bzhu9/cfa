@@ -11,7 +11,7 @@ $ cd cfa
 $ pip install -r requirements.txt
 ```
 
-### Chrome Browser Version
+### Chrome Browser / Chrome Driver Version
 Make sure to have the correct chromedriver version that matches your current Chrome Browser Version.
 
 See https://chromedriver.chromium.org/downloads for more versions.
