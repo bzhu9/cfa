@@ -8,7 +8,7 @@ import password as pw
 
 opts = webdriver.ChromeOptions()
 opts.add_argument("--user-data-dir=" + pw.chrome_profile)
-driver = webdriver.Chrome(options = opts, executable_path="chromedriver")
+driver = webdriver.Chrome(options = opts)
 driver.get("https://www.chick-fil-a.com/missedtransaction")
 email = pw.email
 password = pw.password
@@ -22,6 +22,9 @@ if "SIGN IN" in driver.title:
   passfield.send_keys(password)
   passfield.send_keys(Keys.RETURN)
 
+while "Verify Your Device" in driver.title:
+  # wait for 2fa
+  input("Press enter when done with verification")
 
 rnum = input()
 todate = date.today().strftime("%m/%d/%Y")
