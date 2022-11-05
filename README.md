@@ -1,4 +1,4 @@
-# cfa
+# Chick-Fil-A OCR
 A selenium web automation that submits Chick-Fil-A missed point transactions for you. It signs in and redeems points from your receipt.
 
 ## Installation
